@@ -1,0 +1,26 @@
+<div class="container">
+    <div class="calculator">
+        <div class="display">
+            <div id="pre-value">{{input}}</div>
+            <div id="actual-value">{{result}}</div>
+        </div>
+        <button class="col-2" (click)="allClear()">C</button>
+        <button (click)="clear()">&larr;</button>
+        <button class="operator" value="divide" (click)="pressOperator('/')">/</button>
+        <button class="number" (click)="pressNum('7')">7</button>
+        <button class="number" (click)="pressNum('8')">8</button>
+        <button class="number" (click)="pressNum('9')">9</button>
+        <button class="operator" value="multiply" (click)="pressOperator('*')">X</button>
+        <button class="number" (click)="pressNum('4')">4</button>
+        <button class="number" (click)="pressNum('5')">5</button>
+        <button class="number" (click)="pressNum('6')">6</button>
+        <button class="operator" value="subtract" (click)="pressOperator('-')">-</button>
+        <button class="number" (click)="pressNum('1')">1</button>
+        <button class="number" (click)="pressNum('2')">2</button>
+        <button class="number" (click)="pressNum('3')">3</button>
+        <button class="operator" value="sum" (click)="pressOperator('+')">+</button>
+        <button class="col-2 number" (click)="pressNum('0')">0</button>
+        <button class="number" (click)="pressNum('.')">.</button>
+        <button class="operator" value="equal" (click)="getAnswer()">=</button>
+    </div>
+</div>

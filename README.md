@@ -2,8 +2,8 @@
 
 Requisitos:
 
-Angular 13.2.6
-Node 16.14.0
+- Angular 13.2.6
+- Node 16.14.0
 
 Esta aplicación se basa en una calculadora básica creada con Angular.
 

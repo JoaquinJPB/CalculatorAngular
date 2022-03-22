@@ -1,28 +1,15 @@
 # AngularCalculator
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.6.
+Requisitos:
 
-## Development server
+Angular 13.2.6
+Node 16.14.0
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Esta aplicación se basa en una calculadora básica creada con Angular.
 
-## Code scaffolding
+El template de la calculadora esta sacada de otro repositorio: https://github.com/JoaquinJPB/Calculator.js
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+La aplicación cumple con la funcionalidad esperada de una calculadora, se puede sumar, restar, multiplicar y dividir, así como la opción de usar decimales.
 
-## Build
+Puede ver la aplicación en funcionamiento en el siguiente enlace: https://joaquinjpb.github.io/CalculatorAngular/
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-# CalculatorAngular
